@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# VSCode
+.vscode/
+
+# Data & Results
+data/
+results/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Huggingface cache
+.cache/
