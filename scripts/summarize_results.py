@@ -38,33 +38,47 @@ def summarize(path_in: str, path_out: str) -> None:
     print(f"Wrote {path_out}")
     
 
-def compute_failure_levels(path_in: str):
+def compute_failure_levels(path_in: str, path_out: str | None = None):
     import pandas as pd
     df = pd.read_csv(path_in)
 
+    metric = "accuracy" if "accuracy" in df.columns else "mean_confidence"
+    group_keys = [k for k in ["model", "axis", "transform"] if k in df.columns]
+
     results = []
-
-    for (model, transform), group in df.groupby(["model", "transform"]):
+    for keys, group in df.groupby(group_keys):
         group = group.sort_values("level")
+        baseline_rows = group[group["level"] == 0][metric].values
+        if len(baseline_rows) == 0:
+            continue
 
-        baseline = group[group["level"] == 0]["mean_confidence"].values[0]
+        baseline = float(baseline_rows[0])
         threshold = 0.5 * baseline
 
         failure_level = None
         for _, row in group.iterrows():
-            if row["level"] > 0 and row["mean_confidence"] <= threshold:
+            if int(row["level"]) > 0 and float(row[metric]) <= threshold:
                 failure_level = int(row["level"])
                 break
 
-        results.append({
-            "model": model,
-            "transform": transform,
-            "failure_level_50pct": failure_level
+        keys_tuple = keys if isinstance(keys, tuple) else (keys,)
+        out_row = dict(zip(group_keys, keys_tuple))
+        out_row.update({
+            "metric": metric,
+            "baseline_level0": baseline,
+            "threshold_50pct": threshold,
+            "failure_level_50pct": failure_level,
         })
+        results.append(out_row)
 
     out = pd.DataFrame(results)
     print("\nFailure levels (50% drop rule):")
     print(out)
+
+    if path_out:
+        out.to_csv(path_out, index=False)
+        print(f"Wrote {path_out}")
+
 if __name__ == "__main__":
 
     # Baseline
@@ -85,13 +99,31 @@ if __name__ == "__main__":
         "results/summary_corruptions_appearance_openclip.csv",
     )
 
+    summarize(
+        "results/corruptions_geometry_efficientnet.csv",
+        "results/summary_corruptions_geometry_efficientnet.csv",
+    )
+
+    summarize(
+        "results/corruptions_geometry_openclip.csv",
+        "results/summary_corruptions_geometry_openclip.csv",
+    )
+
     # Failure threshold analysis (optional but useful)
     compute_failure_levels(
-        "results/summary_corruptions_appearance_efficientnet.csv"
+        "results/summary_corruptions_appearance_efficientnet.csv",
+        "results/failure_corruptions_appearance_efficientnet.csv",
     )
-
     compute_failure_levels(
-        "results/summary_corruptions_appearance_openclip.csv"
+        "results/summary_corruptions_geometry_efficientnet.csv",
+        "results/failure_corruptions_geometry_efficientnet.csv",
     )
-
+    compute_failure_levels(
+        "results/summary_corruptions_appearance_openclip.csv",
+        "results/failure_corruptions_appearance_openclip.csv",
+    )
+    compute_failure_levels(
+        "results/summary_corruptions_geometry_openclip.csv",
+        "results/failure_corruptions_geometry_openclip.csv",
+    )
 

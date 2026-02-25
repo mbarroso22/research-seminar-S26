@@ -16,6 +16,7 @@ venv/
 # Data & Results
 data/
 results/
+results_n*/
 
 # OS
 .DS_Store
