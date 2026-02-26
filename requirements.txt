@@ -9,3 +9,7 @@ scikit-learn
 open_clip_torch
 adversarial-robustness-toolbox
 pyyaml
+matplotlib
+tabulate
+jupyter
+ipykernel
