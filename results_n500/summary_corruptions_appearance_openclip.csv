@@ -1,0 +1,9 @@
+model,dataset,axis,transform,level,accuracy,mean_confidence,n
+openclip_vit_b_32,cifar10,appearance,blur,0,0.89,0.11033587586879726,500
+openclip_vit_b_32,cifar10,appearance,blur,1,0.6,0.10474263738095756,500
+openclip_vit_b_32,cifar10,appearance,blur,2,0.242,0.1017982634902,500
+openclip_vit_b_32,cifar10,appearance,blur,3,0.154,0.10175708959996696,500
+openclip_vit_b_32,cifar10,appearance,pixelate,0,0.89,0.11033587586879726,500
+openclip_vit_b_32,cifar10,appearance,pixelate,1,0.304,0.10301565496623512,500
+openclip_vit_b_32,cifar10,appearance,pixelate,2,0.154,0.10262547634541984,500
+openclip_vit_b_32,cifar10,appearance,pixelate,3,0.122,0.10269196748733517,500

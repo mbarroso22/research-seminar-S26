@@ -1,0 +1,9 @@
+model,axis,transform,level,mean_cosine_similarity,mean_drift,n
+efficientnet_v2_s,appearance,blur,0,1.0,0.0,2000
+efficientnet_v2_s,appearance,blur,1,0.6777833104133606,0.3222166895866394,2000
+efficientnet_v2_s,appearance,blur,2,0.3836614191532135,0.6163385808467865,2000
+efficientnet_v2_s,appearance,blur,3,0.2618927657604217,0.7381072342395782,2000
+efficientnet_v2_s,appearance,pixelate,0,1.0,0.0,2000
+efficientnet_v2_s,appearance,pixelate,1,0.4648661017417907,0.5351338982582092,2000
+efficientnet_v2_s,appearance,pixelate,2,0.2128391563892364,0.7871608436107635,2000
+efficientnet_v2_s,appearance,pixelate,3,0.1039733290672302,0.8960266709327698,2000

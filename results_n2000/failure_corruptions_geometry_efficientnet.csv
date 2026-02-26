@@ -1,0 +1,4 @@
+model,axis,transform,metric,baseline_level0,threshold_50pct,failure_level_50pct
+efficientnet_v2_s,geometry,rotate,mean_confidence,0.3522680216804146,0.1761340108402073,
+efficientnet_v2_s,geometry,shear_x,mean_confidence,0.3522680216804146,0.1761340108402073,
+efficientnet_v2_s,geometry,translate,mean_confidence,0.3522680216804146,0.1761340108402073,

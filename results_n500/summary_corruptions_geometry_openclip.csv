@@ -1,0 +1,13 @@
+model,dataset,axis,transform,level,accuracy,mean_confidence,n
+openclip_vit_b_32,cifar10,geometry,rotate,0,0.89,0.11033587586879726,500
+openclip_vit_b_32,cifar10,geometry,rotate,1,0.69,0.10619616036117073,500
+openclip_vit_b_32,cifar10,geometry,rotate,2,0.43,0.10459260138869281,500
+openclip_vit_b_32,cifar10,geometry,rotate,3,0.518,0.10510450500249859,500
+openclip_vit_b_32,cifar10,geometry,shear_x,0,0.89,0.11033587586879726,500
+openclip_vit_b_32,cifar10,geometry,shear_x,1,0.868,0.109400869295001,500
+openclip_vit_b_32,cifar10,geometry,shear_x,2,0.842,0.10884579035639759,500
+openclip_vit_b_32,cifar10,geometry,shear_x,3,0.786,0.10818653699755665,500
+openclip_vit_b_32,cifar10,geometry,translate,0,0.89,0.11033587586879726,500
+openclip_vit_b_32,cifar10,geometry,translate,1,0.86,0.10989545156061645,500
+openclip_vit_b_32,cifar10,geometry,translate,2,0.832,0.10900208000838753,500
+openclip_vit_b_32,cifar10,geometry,translate,3,0.782,0.10818989962339397,500

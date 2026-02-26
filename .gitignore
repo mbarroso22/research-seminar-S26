@@ -13,10 +13,21 @@ venv/
 # VSCode
 .vscode/
 
-# Data & Results
+# Data: keep CIFAR downloads out of git
 data/
+
+# Default: ignore raw results (we will explicitly include shared result snapshots)
 results/
-results_n*/
+
+# Allow committed snapshots (your shared runs)
+!results_n2000/
+!results_n2000/**
+
+# Optional: allow other snapshots too
+!results_n500/
+!results_n500/**
+!results_n33/
+!results_n33/**
 
 # OS
 .DS_Store

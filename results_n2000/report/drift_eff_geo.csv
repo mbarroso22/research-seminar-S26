@@ -1,0 +1,13 @@
+model,axis,transform,level,mean_cosine_similarity,mean_drift,n
+efficientnet_v2_s,geometry,rotate,0,1.0,0.0,2000
+efficientnet_v2_s,geometry,rotate,1,0.5904690027236938,0.4095309972763061,2000
+efficientnet_v2_s,geometry,rotate,2,0.5157681703567505,0.4842318296432495,2000
+efficientnet_v2_s,geometry,rotate,3,0.6703266501426697,0.3296733498573303,2000
+efficientnet_v2_s,geometry,shear_x,0,1.0,0.0,2000
+efficientnet_v2_s,geometry,shear_x,1,0.9441558122634888,0.0558441877365112,2000
+efficientnet_v2_s,geometry,shear_x,2,0.8935319185256958,0.1064680814743042,2000
+efficientnet_v2_s,geometry,shear_x,3,0.8279274702072144,0.1720725297927856,2000
+efficientnet_v2_s,geometry,translate,0,1.0,0.0,2000
+efficientnet_v2_s,geometry,translate,1,0.9354256987571716,0.0645743012428283,2000
+efficientnet_v2_s,geometry,translate,2,0.8964527249336243,0.1035472750663757,2000
+efficientnet_v2_s,geometry,translate,3,0.850004255771637,0.149995744228363,2000

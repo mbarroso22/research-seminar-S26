@@ -1,0 +1,13 @@
+model,dataset,axis,transform,level,mean_confidence,n
+efficientnet_v2_s,cifar10,geometry,rotate,0,0.3283037040755153,500
+efficientnet_v2_s,cifar10,geometry,rotate,1,0.20914557142183182,500
+efficientnet_v2_s,cifar10,geometry,rotate,2,0.202286350633949,500
+efficientnet_v2_s,cifar10,geometry,rotate,3,0.20751064383983608,500
+efficientnet_v2_s,cifar10,geometry,shear_x,0,0.3283037040755153,500
+efficientnet_v2_s,cifar10,geometry,shear_x,1,0.30611746867746115,500
+efficientnet_v2_s,cifar10,geometry,shear_x,2,0.28286777189373963,500
+efficientnet_v2_s,cifar10,geometry,shear_x,3,0.242444518469274,500
+efficientnet_v2_s,cifar10,geometry,translate,0,0.3283037040755153,500
+efficientnet_v2_s,cifar10,geometry,translate,1,0.3268212545067072,500
+efficientnet_v2_s,cifar10,geometry,translate,2,0.30431200405210257,500
+efficientnet_v2_s,cifar10,geometry,translate,3,0.2861508510261773,500

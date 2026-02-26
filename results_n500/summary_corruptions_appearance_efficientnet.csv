@@ -1,0 +1,9 @@
+model,dataset,axis,transform,level,mean_confidence,n
+efficientnet_v2_s,cifar10,appearance,blur,0,0.3283037040755153,500
+efficientnet_v2_s,cifar10,appearance,blur,1,0.16575703043118117,500
+efficientnet_v2_s,cifar10,appearance,blur,2,0.09358324727043506,500
+efficientnet_v2_s,cifar10,appearance,blur,3,0.07921031593531366,500
+efficientnet_v2_s,cifar10,appearance,pixelate,0,0.3283037040755153,500
+efficientnet_v2_s,cifar10,appearance,pixelate,1,0.20578844043985006,500
+efficientnet_v2_s,cifar10,appearance,pixelate,2,0.09192489509657022,500
+efficientnet_v2_s,cifar10,appearance,pixelate,3,0.15694943595305083,500

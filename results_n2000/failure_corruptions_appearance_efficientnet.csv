@@ -1,0 +1,3 @@
+model,axis,transform,metric,baseline_level0,threshold_50pct,failure_level_50pct
+efficientnet_v2_s,appearance,blur,mean_confidence,0.3522680216804146,0.1761340108402073,1
+efficientnet_v2_s,appearance,pixelate,mean_confidence,0.3522680216804146,0.1761340108402073,2

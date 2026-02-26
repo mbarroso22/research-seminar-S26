@@ -1,0 +1,129 @@
+model,dataset,transform,level,image_id,true_label,true_label_name,pred_label,pred_label_name,confidence
+efficientnet_v2_s,cifar10,pixelate,0,0,3,cat,335,fox squirrel,0.25712868571281433
+efficientnet_v2_s,cifar10,pixelate,0,0,8,ship,814,speedboat,0.17069987952709198
+efficientnet_v2_s,cifar10,pixelate,0,0,8,ship,914,yawl,0.2106870710849762
+efficientnet_v2_s,cifar10,pixelate,0,0,0,airplane,473,can opener,0.11129438877105713
+efficientnet_v2_s,cifar10,pixelate,0,0,6,frog,32,tailed frog,0.526030421257019
+efficientnet_v2_s,cifar10,pixelate,0,0,6,frog,335,fox squirrel,0.11220904439687729
+efficientnet_v2_s,cifar10,pixelate,0,0,1,automobile,675,moving van,0.3703728914260864
+efficientnet_v2_s,cifar10,pixelate,0,0,6,frog,653,milk can,0.21140548586845398
+efficientnet_v2_s,cifar10,pixelate,0,1,3,cat,158,toy terrier,0.15107934176921844
+efficientnet_v2_s,cifar10,pixelate,0,1,1,automobile,482,cassette player,0.15963751077651978
+efficientnet_v2_s,cifar10,pixelate,0,1,0,airplane,473,can opener,0.09699202328920364
+efficientnet_v2_s,cifar10,pixelate,0,1,9,truck,675,moving van,0.7514529228210449
+efficientnet_v2_s,cifar10,pixelate,0,1,5,dog,152,Japanese spaniel,0.2460191398859024
+efficientnet_v2_s,cifar10,pixelate,0,1,7,horse,268,Mexican hairless,0.13665670156478882
+efficientnet_v2_s,cifar10,pixelate,0,1,9,truck,675,moving van,0.7769408226013184
+efficientnet_v2_s,cifar10,pixelate,0,1,8,ship,73,barn spider,0.752178430557251
+efficientnet_v2_s,cifar10,pixelate,0,2,5,dog,215,Brittany spaniel,0.5142759084701538
+efficientnet_v2_s,cifar10,pixelate,0,2,7,horse,339,sorrel,0.5838788151741028
+efficientnet_v2_s,cifar10,pixelate,0,2,8,ship,724,pirate,0.3795871138572693
+efficientnet_v2_s,cifar10,pixelate,0,2,6,frog,32,tailed frog,0.14044062793254852
+efficientnet_v2_s,cifar10,pixelate,0,2,7,horse,339,sorrel,0.3928654193878174
+efficientnet_v2_s,cifar10,pixelate,0,2,0,airplane,596,hatchet,0.14379100501537323
+efficientnet_v2_s,cifar10,pixelate,0,2,4,deer,149,dugong,0.23929083347320557
+efficientnet_v2_s,cifar10,pixelate,0,2,9,truck,555,fire engine,0.3603675961494446
+efficientnet_v2_s,cifar10,pixelate,0,3,5,dog,193,Australian terrier,0.41168132424354553
+efficientnet_v2_s,cifar10,pixelate,0,3,2,bird,80,black grouse,0.08773016929626465
+efficientnet_v2_s,cifar10,pixelate,0,3,4,deer,264,Cardigan,0.10862524807453156
+efficientnet_v2_s,cifar10,pixelate,0,3,0,airplane,596,hatchet,0.09920567274093628
+efficientnet_v2_s,cifar10,pixelate,0,3,9,truck,675,moving van,0.7259528040885925
+efficientnet_v2_s,cifar10,pixelate,0,3,6,frog,274,dhole,0.23258332908153534
+efficientnet_v2_s,cifar10,pixelate,0,3,6,frog,335,fox squirrel,0.21437807381153107
+efficientnet_v2_s,cifar10,pixelate,0,3,5,dog,194,Dandie Dinmont,0.4404739439487457
+efficientnet_v2_s,cifar10,pixelate,1,4,3,cat,686,oil filter,0.11227148026227951
+efficientnet_v2_s,cifar10,pixelate,1,4,8,ship,675,moving van,0.15910542011260986
+efficientnet_v2_s,cifar10,pixelate,1,4,8,ship,510,container ship,0.4689037799835205
+efficientnet_v2_s,cifar10,pixelate,1,4,0,airplane,675,moving van,0.1926930844783783
+efficientnet_v2_s,cifar10,pixelate,1,4,6,frog,741,prayer rug,0.1660546064376831
+efficientnet_v2_s,cifar10,pixelate,1,4,6,frog,901,whiskey jug,0.05179443210363388
+efficientnet_v2_s,cifar10,pixelate,1,4,1,automobile,686,oil filter,0.06586882472038269
+efficientnet_v2_s,cifar10,pixelate,1,4,6,frog,653,milk can,0.16846014559268951
+efficientnet_v2_s,cifar10,pixelate,1,5,3,cat,577,gong,0.1137113943696022
+efficientnet_v2_s,cifar10,pixelate,1,5,1,automobile,427,barrel,0.06875253468751907
+efficientnet_v2_s,cifar10,pixelate,1,5,0,airplane,812,space shuttle,0.1632385104894638
+efficientnet_v2_s,cifar10,pixelate,1,5,9,truck,510,container ship,0.39715319871902466
+efficientnet_v2_s,cifar10,pixelate,1,5,5,dog,175,otterhound,0.04795118421316147
+efficientnet_v2_s,cifar10,pixelate,1,5,7,horse,583,guillotine,0.02849903330206871
+efficientnet_v2_s,cifar10,pixelate,1,5,9,truck,446,binder,0.13700972497463226
+efficientnet_v2_s,cifar10,pixelate,1,5,8,ship,741,prayer rug,0.058684997260570526
+efficientnet_v2_s,cifar10,pixelate,1,6,5,dog,167,English foxhound,0.09417994320392609
+efficientnet_v2_s,cifar10,pixelate,1,6,7,horse,427,barrel,0.25946635007858276
+efficientnet_v2_s,cifar10,pixelate,1,6,8,ship,510,container ship,0.7527534365653992
+efficientnet_v2_s,cifar10,pixelate,1,6,6,frog,577,gong,0.18431521952152252
+efficientnet_v2_s,cifar10,pixelate,1,6,7,horse,660,mobile home,0.09765858948230743
+efficientnet_v2_s,cifar10,pixelate,1,6,0,airplane,699,panpipe,0.2064136415719986
+efficientnet_v2_s,cifar10,pixelate,1,6,4,deer,149,dugong,0.25109779834747314
+efficientnet_v2_s,cifar10,pixelate,1,6,9,truck,510,container ship,0.5925502181053162
+efficientnet_v2_s,cifar10,pixelate,1,7,5,dog,522,croquet ball,0.053529225289821625
+efficientnet_v2_s,cifar10,pixelate,1,7,2,bird,522,croquet ball,0.07629860192537308
+efficientnet_v2_s,cifar10,pixelate,1,7,4,deer,427,barrel,0.18852511048316956
+efficientnet_v2_s,cifar10,pixelate,1,7,0,airplane,699,panpipe,0.1374053955078125
+efficientnet_v2_s,cifar10,pixelate,1,7,9,truck,653,milk can,0.03689856082201004
+efficientnet_v2_s,cifar10,pixelate,1,7,6,frog,427,barrel,0.0882728099822998
+efficientnet_v2_s,cifar10,pixelate,1,7,6,frog,577,gong,0.1205032616853714
+efficientnet_v2_s,cifar10,pixelate,1,7,5,dog,175,otterhound,0.05437416210770607
+efficientnet_v2_s,cifar10,pixelate,2,8,3,cat,741,prayer rug,0.19422340393066406
+efficientnet_v2_s,cifar10,pixelate,2,8,8,ship,446,binder,0.049125805497169495
+efficientnet_v2_s,cifar10,pixelate,2,8,8,ship,781,scoreboard,0.031503960490226746
+efficientnet_v2_s,cifar10,pixelate,2,8,0,airplane,902,whistle,0.06617771834135056
+efficientnet_v2_s,cifar10,pixelate,2,8,6,frog,781,scoreboard,0.13401468098163605
+efficientnet_v2_s,cifar10,pixelate,2,8,6,frog,741,prayer rug,0.13092415034770966
+efficientnet_v2_s,cifar10,pixelate,2,8,1,automobile,741,prayer rug,0.144256591796875
+efficientnet_v2_s,cifar10,pixelate,2,8,6,frog,902,whistle,0.04021955654025078
+efficientnet_v2_s,cifar10,pixelate,2,9,3,cat,741,prayer rug,0.11206208169460297
+efficientnet_v2_s,cifar10,pixelate,2,9,1,automobile,446,binder,0.02937069535255432
+efficientnet_v2_s,cifar10,pixelate,2,9,0,airplane,446,binder,0.06652551144361496
+efficientnet_v2_s,cifar10,pixelate,2,9,9,truck,902,whistle,0.035278283059597015
+efficientnet_v2_s,cifar10,pixelate,2,9,5,dog,741,prayer rug,0.0668218582868576
+efficientnet_v2_s,cifar10,pixelate,2,9,7,horse,918,crossword puzzle,0.14529232680797577
+efficientnet_v2_s,cifar10,pixelate,2,9,9,truck,446,binder,0.06824655830860138
+efficientnet_v2_s,cifar10,pixelate,2,9,8,ship,522,croquet ball,0.09327859431505203
+efficientnet_v2_s,cifar10,pixelate,2,10,5,dog,902,whistle,0.031976453959941864
+efficientnet_v2_s,cifar10,pixelate,2,10,7,horse,522,croquet ball,0.07254686951637268
+efficientnet_v2_s,cifar10,pixelate,2,10,8,ship,499,cleaver,0.026253506541252136
+efficientnet_v2_s,cifar10,pixelate,2,10,6,frog,641,maraca,0.05514620617032051
+efficientnet_v2_s,cifar10,pixelate,2,10,7,horse,918,crossword puzzle,0.08308544009923935
+efficientnet_v2_s,cifar10,pixelate,2,10,0,airplane,499,cleaver,0.08867260068655014
+efficientnet_v2_s,cifar10,pixelate,2,10,4,deer,782,screen,0.10573180019855499
+efficientnet_v2_s,cifar10,pixelate,2,10,9,truck,921,book jacket,0.05075942724943161
+efficientnet_v2_s,cifar10,pixelate,2,11,5,dog,902,whistle,0.10575737059116364
+efficientnet_v2_s,cifar10,pixelate,2,11,2,bird,446,binder,0.08059313893318176
+efficientnet_v2_s,cifar10,pixelate,2,11,4,deer,789,shoji,0.062396541237831116
+efficientnet_v2_s,cifar10,pixelate,2,11,0,airplane,522,croquet ball,0.0738055631518364
+efficientnet_v2_s,cifar10,pixelate,2,11,9,truck,902,whistle,0.023940833285450935
+efficientnet_v2_s,cifar10,pixelate,2,11,6,frog,741,prayer rug,0.1075463742017746
+efficientnet_v2_s,cifar10,pixelate,2,11,6,frog,741,prayer rug,0.16243773698806763
+efficientnet_v2_s,cifar10,pixelate,2,11,5,dog,741,prayer rug,0.07214416563510895
+efficientnet_v2_s,cifar10,pixelate,3,12,3,cat,769,rule,0.05804361402988434
+efficientnet_v2_s,cifar10,pixelate,3,12,8,ship,918,crossword puzzle,0.16867655515670776
+efficientnet_v2_s,cifar10,pixelate,3,12,8,ship,918,crossword puzzle,0.04848902300000191
+efficientnet_v2_s,cifar10,pixelate,3,12,0,airplane,918,crossword puzzle,0.06082368642091751
+efficientnet_v2_s,cifar10,pixelate,3,12,6,frog,902,whistle,0.0603599026799202
+efficientnet_v2_s,cifar10,pixelate,3,12,6,frog,918,crossword puzzle,0.39622870087623596
+efficientnet_v2_s,cifar10,pixelate,3,12,1,automobile,918,crossword puzzle,0.2685217261314392
+efficientnet_v2_s,cifar10,pixelate,3,12,6,frog,418,ballpoint,0.055029887706041336
+efficientnet_v2_s,cifar10,pixelate,3,13,3,cat,418,ballpoint,0.03217022120952606
+efficientnet_v2_s,cifar10,pixelate,3,13,1,automobile,918,crossword puzzle,0.19193699955940247
+efficientnet_v2_s,cifar10,pixelate,3,13,0,airplane,769,rule,0.07610990852117538
+efficientnet_v2_s,cifar10,pixelate,3,13,9,truck,918,crossword puzzle,0.4385155737400055
+efficientnet_v2_s,cifar10,pixelate,3,13,5,dog,918,crossword puzzle,0.05062292516231537
+efficientnet_v2_s,cifar10,pixelate,3,13,7,horse,918,crossword puzzle,0.6531930565834045
+efficientnet_v2_s,cifar10,pixelate,3,13,9,truck,769,rule,0.09996429830789566
+efficientnet_v2_s,cifar10,pixelate,3,13,8,ship,918,crossword puzzle,0.10847298055887222
+efficientnet_v2_s,cifar10,pixelate,3,14,5,dog,419,Band Aid,0.034105848520994186
+efficientnet_v2_s,cifar10,pixelate,3,14,7,horse,918,crossword puzzle,0.11957592517137527
+efficientnet_v2_s,cifar10,pixelate,3,14,8,ship,918,crossword puzzle,0.24116457998752594
+efficientnet_v2_s,cifar10,pixelate,3,14,6,frog,918,crossword puzzle,0.1588708609342575
+efficientnet_v2_s,cifar10,pixelate,3,14,7,horse,918,crossword puzzle,0.2700110971927643
+efficientnet_v2_s,cifar10,pixelate,3,14,0,airplane,585,hair spray,0.0635349377989769
+efficientnet_v2_s,cifar10,pixelate,3,14,4,deer,446,binder,0.04081711918115616
+efficientnet_v2_s,cifar10,pixelate,3,14,9,truck,769,rule,0.038678061217069626
+efficientnet_v2_s,cifar10,pixelate,3,15,5,dog,902,whistle,0.060651786625385284
+efficientnet_v2_s,cifar10,pixelate,3,15,2,bird,918,crossword puzzle,0.056075725704431534
+efficientnet_v2_s,cifar10,pixelate,3,15,4,deer,918,crossword puzzle,0.1568547487258911
+efficientnet_v2_s,cifar10,pixelate,3,15,0,airplane,918,crossword puzzle,0.12824149429798126
+efficientnet_v2_s,cifar10,pixelate,3,15,9,truck,918,crossword puzzle,0.17499178647994995
+efficientnet_v2_s,cifar10,pixelate,3,15,6,frog,902,whistle,0.04574638232588768
+efficientnet_v2_s,cifar10,pixelate,3,15,6,frog,918,crossword puzzle,0.07163585722446442
+efficientnet_v2_s,cifar10,pixelate,3,15,5,dog,918,crossword puzzle,0.17335110902786255

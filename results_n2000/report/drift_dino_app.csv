@@ -1,0 +1,9 @@
+model,axis,transform,level,mean_cosine_similarity,mean_drift,n
+dinov2_vits14,appearance,blur,0,1.0,0.0,2000
+dinov2_vits14,appearance,blur,1,0.6461191177368164,0.3538808822631836,2000
+dinov2_vits14,appearance,blur,2,0.3508947789669037,0.6491052210330963,2000
+dinov2_vits14,appearance,blur,3,0.2338961511850357,0.7661038488149643,2000
+dinov2_vits14,appearance,pixelate,0,1.0,0.0,2000
+dinov2_vits14,appearance,pixelate,1,0.4224026501178741,0.5775973498821259,2000
+dinov2_vits14,appearance,pixelate,2,0.0821323990821838,0.9178676009178162,2000
+dinov2_vits14,appearance,pixelate,3,0.0544941537082195,0.9455058462917804,2000
