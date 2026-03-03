@@ -1,0 +1,54 @@
+def gaussian_noise_pil(img, level):
+    """
+    Adds Gaussian noise.
+    level 0 = no noise
+    level 1–3 = increasing std deviation
+    """
+    if level == 0:
+        return img
+
+    img_np = np.array(img).astype(np.float32)
+
+    std_map = {
+        1: 10,
+        2: 25,
+        3: 50
+    }
+
+    std = std_map.get(level, 10)
+
+    noise = np.random.normal(0, std, img_np.shape)
+    noisy = img_np + noise
+
+    noisy = np.clip(noisy, 0, 255).astype(np.uint8)
+
+    return Image.fromarray(noisy)
+
+def salt_pepper_noise_pil(img, level):
+    """
+    Adds salt & pepper noise.
+    level controls amount of corruption.
+    """
+    if level == 0:
+        return img
+
+    img_np = np.array(img)
+    noisy = img_np.copy()
+
+    prob_map = {
+        1: 0.02,
+        2: 0.05,
+        3: 0.10
+    }
+
+    prob = prob_map.get(level, 0.02)
+
+    # Salt
+    salt_mask = np.random.rand(*img_np.shape[:2]) < prob
+    noisy[salt_mask] = 255
+
+    # Pepper
+    pepper_mask = np.random.rand(*img_np.shape[:2]) < prob
+    noisy[pepper_mask] = 0
+
+    return Image.fromarray(noisy)
