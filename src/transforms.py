@@ -10,7 +10,7 @@ def pixelate(img: Image.Image, level: int) -> Image.Image:
     if level <= 0:
         return img
     w, h = img.size
-    factor = max(1, 2 ** level)
+    factor = max(1, 2 ** level) 
     resample = Image.Resampling.NEAREST
     small = img.resize((max(1, w // factor), max(1, h // factor)), resample=resample)
     return small.resize((w, h), resample=resample)

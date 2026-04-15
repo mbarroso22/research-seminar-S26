@@ -1,37 +1,32 @@
 # Python
+.venv/
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.egg-info/
 
-# Virtual environments
-.venv/
-env/
-venv/
+# Jupyter
+.ipynb_checkpoints/
 
-# VSCode
-.vscode/
-
-# Data: keep CIFAR downloads out of git
-data/
-
-# Default: ignore raw results (we will explicitly include shared result snapshots)
-results/
-
-# Allow committed snapshots (your shared runs)
-!results_n2000/
-!results_n2000/**
-
-# Optional: allow other snapshots too
-!results_n500/
-!results_n500/**
-!results_n33/
-!results_n33/**
-
-# OS
+# OS / editor
 .DS_Store
 Thumbs.db
+.vscode/
 
-# Huggingface cache
+# Caches
 .cache/
+.pytest_cache/
+
+# Large generated training artifacts
+natural_abstraction/yolo_runs/
+runs/
+
+# Optional: copied YOLO dataset, since it can be rebuilt
+natural_abstraction/yolo_cls_dataset/
+
+# Optional: large raw / generated data
+data/
+raw_downloads/
+
+# Keep results if you want summaries tracked, but ignore huge binaries if needed
+*.pt
+*.pth
+*.onnx
