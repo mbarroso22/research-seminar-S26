@@ -3,30 +3,27 @@
 __pycache__/
 *.pyc
 
-# Jupyter
-.ipynb_checkpoints/
-
-# OS / editor
+# VS Code / OS
+.vscode/
 .DS_Store
 Thumbs.db
-.vscode/
+
+# YOLO training runs
+natural_abstraction/yolo_runs/
+
+# Generated datasets (can be rebuilt)
+natural_abstraction/yolo_cls_dataset/
+
+# Large raw data
+raw_downloads/
+filtered/
 
 # Caches
 .cache/
-.pytest_cache/
 
-# Large generated training artifacts
-natural_abstraction/yolo_runs/
-runs/
-
-# Optional: copied YOLO dataset, since it can be rebuilt
-natural_abstraction/yolo_cls_dataset/
-
-# Optional: large raw / generated data
-data/
-raw_downloads/
-
-# Keep results if you want summaries tracked, but ignore huge binaries if needed
+# Model weights
 *.pt
 *.pth
-*.onnx
+
+# Large arrays (optional)
+*.npy
