@@ -24,3 +24,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+# add split to the test method and then it will output 
+# The necessary/easily output for the inferecne with the fine toned weights 
+# 

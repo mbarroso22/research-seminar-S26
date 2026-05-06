@@ -27,3 +27,21 @@ filtered/
 
 # Large arrays (optional)
 *.npy
+
+# Large datasets and generated experiment data
+data/
+nga/
+filtered_old_flat/
+cifar_baseline/
+results/
+
+natural_abstraction/nga/
+natural_abstraction/cifar_baseline/
+
+# Large archives
+*.tar.gz
+*.zip
+
+# Analysis exports
+figures_analysis/
+*.html

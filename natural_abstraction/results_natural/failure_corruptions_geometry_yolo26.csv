@@ -1,0 +1,4 @@
+transform,baseline_metric,threshold_metric,failure_level
+rotate,0.2015,0.10075,
+shear_x,0.2015,0.10075,
+translate,0.2015,0.10075,
